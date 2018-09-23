@@ -17,7 +17,7 @@ spring:
 
   rabbitmq:
     host: 127.0.0.1
-    port: 5672
+    port: 32771
     username: buflo
     password: buflo
   http:
