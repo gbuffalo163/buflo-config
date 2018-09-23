@@ -1,7 +1,7 @@
 #加密配置
 jasypt:
   encryptor:
-    password: lengleng
+    password: buflo
 
 server:
   tomcat:
@@ -11,15 +11,15 @@ server:
 spring:
   redis:
     remote: false        #cachecloud 获取
-    host: 139.224.37.184
+    host: 127.0.0.1
     port: 6379
-    password: hexsh
+    password: buflo
 
   rabbitmq:
-    host: 139.224.37.184
+    host: 127.0.0.1
     port: 5672
-    username: hexsh
-    password: hexshAdmin
+    username: buflo
+    password: buflo
   http:
     multipart:
       max-file-size: 1000MB

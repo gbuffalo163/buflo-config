@@ -21,16 +21,16 @@ sharding:
       type: com.zaxxer.hikari.HikariDataSource
       driver-class-name: com.mysql.jdbc.Driver
       username: root
-      password: hackcity
-      jdbc-url: jdbc:mysql://139.224.37.184:3306/buffalo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+      password: 123456
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/buffalo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     datasource:
       names: ds
       ds:
         type: com.zaxxer.hikari.HikariDataSource
         driver-class-name: com.mysql.jdbc.Driver
         username: root
-        password: hackcity
-        jdbc-url: jdbc:mysql://139.224.37.184:3306/buffalo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+        password: 123456
+        jdbc-url: jdbc:mysql://127.0.0.1:3306/buffalo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     config:
       sharding:
         tables:
@@ -45,7 +45,7 @@ sharding:
 #mybaits-plus配置，修改主键类型，mapper.xml、type 别名等
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
-  typeAliasesPackage: com.github.pig.admin.model.entity
+  typeAliasesPackage: com.yitusite.buflo.admin.model.entity
   global-config:
     #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
     id-type: 0

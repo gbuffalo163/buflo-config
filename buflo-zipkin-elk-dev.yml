@@ -4,9 +4,9 @@ server:
 zipkin:
   collector:
     rabbitmq:
-      addresses: 139.224.37.184:5672
-      username: hexsh
-      password: hexshAdmin
+      addresses: 127.0.0.1:5672
+      username: buflo
+      password: buflo
       queue: zipkin
   storage:
     type: elasticsearch
